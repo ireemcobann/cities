@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: system-ui;
+    background: url(./images/Background-City-with-beautiful-sun-Graphics-3644955-1.jpg)
+  
+  }
+  .container {
+    margin: auto;
+    padding-inline:200px ;
+    padding-block: 64px;
+  }
+  .cities h1 {
+    text-align: center;
+  }
+
+  .plakayaGoreSehirler {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-inline: 20px;
+  } 
+
+  .famousCity {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-inline: 20px;
+  }
+
+  #citiesList  {
+ color: black;
+ font-size: x-large;
+ font-weight: 500;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+  }
+
+  #famousFoodCity h3 {
+    color: blueviolet;
+    font-weight: 900;
+  }
+  #famousFoodCity {
+    font-size: larger;
+  }
+   
+
+  #famousPlaceCity h3 {
+    color: blueviolet;
+    font-weight: 900;
+  }
+  #famousPlaceCity {
+    font-size: larger;
+  }
+
+  #tekPlakaliSehir {
+    font-size: larger;
+  }
+  #tekPlakaliSehir h2{
+    color: blueviolet;
+    font-weight: 900;
+  }
+
+  #ciftPlakaliSehir {
+    font-size: larger;
+  }
+  #ciftPlakaliSehir h2{
+    color: blueviolet;
+    font-weight: 900;
+  }
+   
+   
+  
